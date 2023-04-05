@@ -55,7 +55,7 @@ while True:
             if all (finger_fold_status):
                 if lm_list[thumb_tip].y>lm_list[thumb_tip-1].y>lm_list[thumb_tip-2].y:
                     print("Dislike")
-                    cv2.putText(img, "Disike", (20,30), cv2.FONT_HERSHEY_SIMPLEX, 1, (0,255,0), 3)
+                    cv2.putText(img, "Dislike", (20,30), cv2.FONT_HERSHEY_SIMPLEX, 1, (0,255,0), 3)
 
                 
 
